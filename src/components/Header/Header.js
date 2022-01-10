@@ -1,13 +1,15 @@
-import React, {useEffect, useState} from 'react';
-import {StyledHeader} from './HeaderStyles';
-// import {Link} from 'react-router-dom';
-export const Header = () => {
-const [y, setY] = useState(0)
+import React, { useState } from 'react';
 
-    const changeBackground = () =>{
+import { StyledHeader } from './HeaderStyles';
+
+export const Header = () => {
+    const [y, setY] = useState(0)
+
+    const changeBackground = () => {
         setY(window.scrollY);
+        console.log(window.scrollY)
     };
-    window.addEventListener('scroll' , changeBackground);
+    window.addEventListener('scroll', changeBackground);
 
     return (
         <StyledHeader pageY={y}>
