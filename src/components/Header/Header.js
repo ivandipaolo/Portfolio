@@ -13,11 +13,11 @@ export const Header = () => {
 
     return (
         <StyledHeader pageY={y}>
-            <h2 id='portfolio'>{`<PORTFOLIO/>`}</h2>
-            <h2>ABOUT ME</h2>
-            <h2>SKILLS</h2>
-            <h2>PROYECTS</h2>
-            <h2>CONTACT</h2>
+            <h2 id='portfolio'>{`< PORTFOLIO />`}</h2>
+            {/* <h2>{`< ABOUT ME />`}</h2> */}
+            <h2>{`< SKILLS />`}</h2>
+            <h2>{`< PROYECTOS />`}</h2>
+            <h2>{`< CONTACTO />`}</h2>
         </StyledHeader>
     )
 }
