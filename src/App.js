@@ -4,6 +4,7 @@ import { Content } from './components/Container/Content';
 import { Header } from './components/Header/Header';
 import { Social } from './components/Social/Social';
 import { StyledApp } from './AppStyles';
+import Tags from './components/TagCloud/Tags';
 
 function App() {
   return (

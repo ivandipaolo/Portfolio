@@ -4,5 +4,6 @@ export const colors = {
     navBackgroundDefault: '#0a1a32',
     background: '#0a1a32',
     backgroundBorders: '#48c5cd',
-    noticeText: '#fff'
+    noticeText: '#fff',
+    social: '#389aa6'
 };

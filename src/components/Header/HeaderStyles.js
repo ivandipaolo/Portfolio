@@ -13,8 +13,9 @@ export const StyledHeader = styled.div`
     /* margin: 0px; */
     padding: 1rem 0rem 1rem 0rem;
     background-color: ${props => props.pageY > 0 ? colors.navBackground : colors.navBackgroundDefault};
-h2{
-        text-decoration: none;
+    
+    /* text-decoration: underline overline; */
+    h2{
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         color: ${props => props.pageY > 0 ? '#ffffff' : colors.navTextDefault};
@@ -27,6 +28,11 @@ h2{
         }
         ::selection{
             background: transparent
+        }
+        :visited {
+            color: #ffffff;
+            text-decoration: none;
+            /* text-decoration: none; */
         }
     }
 `

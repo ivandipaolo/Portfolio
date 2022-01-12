@@ -2,12 +2,16 @@ import { colors } from "../../constants/colors";
 import styled from "styled-components";
 
 export const SocialStyled = styled.div`
-
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+bottom: 0px;
+left: 7rem;
+position: absolute;
 .vertical-line {
-    bottom: -6px;
-    left: 7rem;
-    position: absolute;
-    border-left: 3px solid #48c5cd;
+    width: 3px;
     height: 6rem;
+    background-color: ${colors.social};
 }
 `

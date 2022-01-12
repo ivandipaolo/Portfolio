@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import { Link } from 'react-router-dom';
 import { StyledHeader } from './HeaderStyles';
 
 export const Header = () => {
@@ -13,11 +14,10 @@ export const Header = () => {
 
     return (
         <StyledHeader pageY={y}>
-            <h2 id='portfolio'>{`< PORTFOLIO />`}</h2>
-            {/* <h2>{`< ABOUT ME />`}</h2> */}
-            <h2>{`< SKILLS />`}</h2>
-            <h2>{`< PROYECTOS />`}</h2>
-            <h2>{`< CONTACTO />`}</h2>
+            <Link style={{ textDecoration: 'none' }} to="/"><h2>{`< PORTFOLIO />`}</h2></Link>
+            <Link style={{ textDecoration: 'none' }} to="/"><h2>{`< SKILLS />`}</h2></Link>
+            <Link style={{ textDecoration: 'none' }} to="/"><h2>{`< PROYECTOS />`}</h2></Link>
+            <Link style={{ textDecoration: 'none' }} to="/"><h2>{`< CONTACTO />`}</h2></Link>
         </StyledHeader>
     )
 }
