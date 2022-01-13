@@ -41,7 +41,7 @@ export const StyledTimeline = styled.div`
             padding: 20px 40px;
             box-sizing: border-box;
             background: rgba( 255, 255, 255, 0.83 );
-            box-shadow: 0 5px 5px 0 ${colors.backgroundOrange};
+            box-shadow: 0 2px 10px 0 ${colors.backgroundOrange};
             backdrop-filter: blur( 0px );
             -webkit-backdrop-filter: blur( 0px );
             border-radius: 2px;
@@ -56,14 +56,14 @@ export const StyledTimeline = styled.div`
                     position: absolute;
                     width: 10px;
                     height: 10px;
-                    top: 100px;
+                    top: 63px;
                     right: -16px;
                     background: #e36607;
                     border-radius: 50%;
                 }
                 .time {
                     position: absolute;
-                    top: 75px;
+                    top: 40px;
                     right: -115px;
                     width: 4rem;
                     margin: 0;
@@ -85,14 +85,14 @@ export const StyledTimeline = styled.div`
                     position: absolute;
                     width: 10px;
                     height: 10px;
-                    top: 95px;
+                    top: 68px;
                     left: -17px;
                     background: #e36607;
                     border-radius: 50%;
                 }
                 .time {
                     position: absolute;
-                    top: 75px;
+                    top: 45px;
                     left: -115px;
                     width: 4rem;
                     margin: 0;
