@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import { StyledHeader, StyledSpan } from './HeaderStyles';
 
 import { Link } from 'react-router-dom';
-import { StyledHeader } from './HeaderStyles';
 
 export const Header = () => {
     const [y, setY] = useState(0)
@@ -14,10 +14,31 @@ export const Header = () => {
 
     return (
         <StyledHeader pageY={y}>
-            <Link style={{ textDecoration: 'none' }} to="/"><h2>{`< PORTFOLIO />`}</h2></Link>
-            <Link style={{ textDecoration: 'none' }} to="/"><h2>{`< SKILLS />`}</h2></Link>
-            <Link style={{ textDecoration: 'none' }} to="/"><h2>{`< PROYECTOS />`}</h2></Link>
-            <Link style={{ textDecoration: 'none' }} to="/"><h2>{`< CONTACTO />`}</h2></Link>
+            <Link style={{ textDecoration: 'none' }} to="/">
+                <h2>
+                    <StyledSpan>{'< '}</StyledSpan>PORTFOLIO<StyledSpan>{' />'}</StyledSpan>
+                </h2>
+            </Link>
+            <Link style={{ textDecoration: 'none' }} to="/">
+                <h2>
+                    <StyledSpan>{'< '}</StyledSpan>ABOUT-ME<StyledSpan>{' />'}</StyledSpan>
+                </h2>
+            </Link>
+            <Link style={{ textDecoration: 'none' }} to="/">
+                <h2>
+                    <StyledSpan>{'< '}</StyledSpan>SKILLS<StyledSpan>{' />'}</StyledSpan>
+                </h2>
+            </Link>
+            <Link style={{ textDecoration: 'none' }} to="/">
+                <h2>
+                    <StyledSpan>{'< '}</StyledSpan>PROYECTOS<StyledSpan>{' />'}</StyledSpan>
+                </h2>
+            </Link>
+            <Link style={{ textDecoration: 'none' }} to="/">
+                <h2>
+                    <StyledSpan>{'< '}</StyledSpan>CONTACTO<StyledSpan>{' />'}</StyledSpan>
+                </h2>
+            </Link>
         </StyledHeader>
     )
 }

@@ -5,6 +5,9 @@ import { Header } from './components/Header/Header';
 import { Social } from './components/Social/Social';
 import { StyledApp } from './AppStyles';
 import Tags from './components/TagCloud/Tags';
+import { TsParticles } from './components/TsParticles/TsParticles';
+
+// import { TsParticles } from './components/TsParticles';
 
 function App() {
   return (
@@ -12,6 +15,7 @@ function App() {
       <Header />
       <Content />
       <Social />
+      <TsParticles />
     </StyledApp>
   );
 }

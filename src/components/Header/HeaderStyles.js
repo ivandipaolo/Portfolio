@@ -7,24 +7,25 @@ export const StyledHeader = styled.div`
     position: sticky;
     top: 0;
     justify-content: center;
-    gap: 10rem;
+    gap: 8rem;
     align-items: center;
     transition: all .9s ease-in-out;
-    /* margin: 0px; */
-    padding: 1rem 0rem 1rem 0rem;
-    background-color: ${props => props.pageY > 0 ? colors.navBackground : colors.navBackgroundDefault};
+    padding: 2rem 0rem 2rem 0rem;
+    background-color: ${props => props.pageY > 0 ? colors.navBackground : colors.background};
     
-    /* text-decoration: underline overline; */
+    
+    border-bottom: 3px solid;
+    border-image-source: linear-gradient(to left, ${colors.background}, ${colors.backgroundOrange} 25%, ${colors.backgroundOrange} 75%, ${colors.background} 100%);
+    border-image-slice: 1;
     h2{
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        color: ${props => props.pageY > 0 ? '#ffffff' : colors.navTextDefault};
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 500;
+        color: ${props => props.pageY > 0 ? '#ffffff' : colors.textDefault};
         transition: all .3s ease-in-out;
         :hover{
             cursor: pointer;
-            text-shadow: 0px 0px 3px ${colors.navTextDefault};
-            color: ${colors.navTextSelected};
-            font-weight: 300;
+            text-shadow: 0px 0px 3px ${colors.textDefault};
+            color: ${colors.textSelected};
         }
         ::selection{
             background: transparent
@@ -35,4 +36,9 @@ export const StyledHeader = styled.div`
             /* text-decoration: none; */
         }
     }
+`
+
+export const StyledSpan = styled.span`
+    font-family: 'Roboto';
+    color: ${colors.deitals}
 `

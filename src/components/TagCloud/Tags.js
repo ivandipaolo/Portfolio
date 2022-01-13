@@ -1,3 +1,4 @@
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import React, { useEffect } from 'react'
 
 import { StyledTags } from './StyledTags';
@@ -18,7 +19,7 @@ function Tags() {
         'SASS', 'Styled \n Components',
         'NodeJS', 'MongoDB', 'SQL', 'JSON', 'Firebase',
         'TypeScript', 'Git & GitHub', 'RESTful \n WebServices',
-        // 'Python', 'Java'
+        'Python', 'Java'
     ];
 
     useEffect(() => {

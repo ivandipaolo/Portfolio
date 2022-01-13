@@ -11,6 +11,6 @@ export const StyledApp = styled.div`
     
     overflow: auto;
     border: 6px solid;
-    border-image-source: linear-gradient(180deg ,${colors.background} ,${colors.backgroundBorders} 134%);
+    border-image-source: linear-gradient(180deg ,${colors.background} ,${colors.backgroundOrange} 134%);
     border-image-slice: 1;
 `

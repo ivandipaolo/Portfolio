@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 
-import { Portfolio } from './Categories/Portfolio'
+import { Portfolio } from './Categories/Portfolio/Portfolio'
 import React from 'react'
 import { StyledContent } from './ContentStyles'
 import Tags from '../TagCloud/Tags'
@@ -12,7 +12,7 @@ export const Content = () => {
                 <Route path="/" element={<Portfolio />} />
                 {/* <Route path="about" element={<About />} /> */}
             </Routes>
-            <Tags />
+            {/* <Tags /> */}
         </StyledContent>
     )
 }

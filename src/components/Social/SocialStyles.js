@@ -12,6 +12,6 @@ position: absolute;
 .vertical-line {
     width: 3px;
     height: 6rem;
-    background-color: ${colors.social};
+    background-color: ${colors.deitals};
 }
 `

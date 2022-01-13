@@ -6,15 +6,15 @@ export const StyledTags = styled.div`
         }
         
         .tagcloud--item {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace;
             font-size: 25px;
             text-align: center;
             padding: 2px 4px;
             background-color: transparent;
             border: 1px solid transparent;
             cursor: pointer;
-            color: ${colors.navTextDefault};
-            background: linear-gradient(to right, ${colors.navTextDefault}, ${colors.navTextSelected} 50%, ${colors.navTextDefault} 50%);
+            color: ${colors.textDefault};
+            background: linear-gradient(to right, ${colors.textDefault}, ${colors.textSelected} 50%, ${colors.textDefault} 50%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -29,7 +29,7 @@ export const StyledTags = styled.div`
         }
 
         .tagcloud--item:hover {
-            color: ${colors.navTextSelected};
+            color: ${colors.textSelected};
             opacity: 1 !important;
             z-index: 100 !important;
             background-position: 0 100%;
