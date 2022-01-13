@@ -4,13 +4,12 @@ import { colors } from "../../constants/colors";
 
 export const TsParticles = () => {
   const particlesInit = (main) => {
-    console.log(main);
+    // console.log(main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
-  // http://cdn.shopify.com/s/files/1/0515/6847/6336/products/Leeuw_grande.png?v=1607585145
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
   return (
     <Particles

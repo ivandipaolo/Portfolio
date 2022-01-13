@@ -9,6 +9,9 @@ gap: 1rem;
 bottom: 0px;
 left: 7rem;
 position: absolute;
+#socialNetwork{
+    cursor: pointer;
+}
 .vertical-line {
     width: 3px;
     height: 6rem;

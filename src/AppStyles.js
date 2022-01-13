@@ -13,4 +13,8 @@ export const StyledApp = styled.div`
     border: 6px solid;
     border-image-source: linear-gradient(180deg ,${colors.background} ,${colors.backgroundOrange} 134%);
     border-image-slice: 1;
+    
+    ::-webkit-scrollbar {
+        display:none;
+    }
 `

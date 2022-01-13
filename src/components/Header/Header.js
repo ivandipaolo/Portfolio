@@ -19,24 +19,24 @@ export const Header = () => {
                     <StyledSpan>{'< '}</StyledSpan>PORTFOLIO<StyledSpan>{' />'}</StyledSpan>
                 </h2>
             </Link>
-            <Link style={{ textDecoration: 'none' }} to="/">
+            <Link style={{ textDecoration: 'none' }} to="/AboutMe">
                 <h2>
                     <StyledSpan>{'< '}</StyledSpan>ABOUT-ME<StyledSpan>{' />'}</StyledSpan>
                 </h2>
             </Link>
             <Link style={{ textDecoration: 'none' }} to="/">
                 <h2>
-                    <StyledSpan>{'< '}</StyledSpan>SKILLS<StyledSpan>{' />'}</StyledSpan>
+                    <StyledSpan>{'< '}</StyledSpan>TRAJECTORY<StyledSpan>{' />'}</StyledSpan>
                 </h2>
             </Link>
             <Link style={{ textDecoration: 'none' }} to="/">
                 <h2>
-                    <StyledSpan>{'< '}</StyledSpan>PROYECTOS<StyledSpan>{' />'}</StyledSpan>
+                    <StyledSpan>{'< '}</StyledSpan>PROJECTS<StyledSpan>{' />'}</StyledSpan>
                 </h2>
             </Link>
             <Link style={{ textDecoration: 'none' }} to="/">
                 <h2>
-                    <StyledSpan>{'< '}</StyledSpan>CONTACTO<StyledSpan>{' />'}</StyledSpan>
+                    <StyledSpan>{'< '}</StyledSpan>CONTACT<StyledSpan>{' />'}</StyledSpan>
                 </h2>
             </Link>
         </StyledHeader>

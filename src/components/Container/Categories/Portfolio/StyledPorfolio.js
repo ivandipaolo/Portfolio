@@ -11,6 +11,7 @@ justify-content: center;
 div{
     width: 50%;
     right: 0px;
+    padding-top: 2rem;
     h2{
         font-family: 'Roboto Mono', monospace;
         font-weight: 600;
@@ -19,9 +20,12 @@ div{
         inline-size: 15rem;
         overflow-wrap: break-word;
         color: ${colors.textDefault};
+        cursor: text;
     }
     p{
         color: ${colors.textSelected};
+        cursor: text;
+        font-size: 1.2rem;
     }
 }
 img{

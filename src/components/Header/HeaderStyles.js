@@ -2,6 +2,7 @@ import { colors } from "../../constants/colors";
 import styled from "styled-components";
 
 export const StyledHeader = styled.div`
+    z-index: 2;
     display: flex;
     width: 100%;
     position: sticky;
@@ -12,8 +13,6 @@ export const StyledHeader = styled.div`
     transition: all .9s ease-in-out;
     padding: 2rem 0rem 2rem 0rem;
     background-color: ${props => props.pageY > 0 ? colors.navBackground : colors.background};
-    
-    
     border-bottom: 3px solid;
     border-image-source: linear-gradient(to left, ${colors.background}, ${colors.backgroundOrange} 25%, ${colors.backgroundOrange} 75%, ${colors.background} 100%);
     border-image-slice: 1;
@@ -40,5 +39,9 @@ export const StyledHeader = styled.div`
 
 export const StyledSpan = styled.span`
     font-family: 'Roboto';
-    color: ${colors.deitals}
+    color: ${colors.deitals};
+    transition: all .2s ease-in-out;
+    :hover{
+            cursor: pointer;
+        }
 `

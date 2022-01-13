@@ -7,12 +7,11 @@ export const StyledTags = styled.div`
         
         .tagcloud--item {
             font-family: 'Roboto Mono', monospace;
-            font-size: 25px;
+            font-size: 1.2rem;
             text-align: center;
             padding: 2px 4px;
             background-color: transparent;
             border: 1px solid transparent;
-            cursor: pointer;
             color: ${colors.textDefault};
             background: linear-gradient(to right, ${colors.textDefault}, ${colors.textSelected} 50%, ${colors.textDefault} 50%);
             background-clip: text;

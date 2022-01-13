@@ -9,10 +9,11 @@ export const Portfolio = () => {
 
     useEffect(() => {
         writeAndDelete("#header", [
-            "ReactJS lover.",
             "Full-Stack MERN Developer.",
-            "Back-End .",
-            "Olá, bem-vindo ao meu portfólio.",
+            "Back-End junior explorer.",
+            "ReactJS lover.",
+            "Mobile apps developer with React-Native.",
+            "programming teacher.",
         ], {
             timeout: 1000,
             loop: loop,
