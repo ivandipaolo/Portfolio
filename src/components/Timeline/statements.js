@@ -1,32 +1,32 @@
 
 export const items = [
     {
-        title: 'First Mobile Project!',
-        description: 'A big friend of mine and I started teaching those knowledges of HTML and CSS for students at secondary school.',
+        title: 'First Mobile App developed!',
+        description: 'After months doing a ReactNative course at CoderHouse, as a final project I developed an app with many features that can be found on Instagram or similar apps. It was something I never would have imagined achieving.',
         date: 'January 2022',
         id: 12
     },
     {
         title: 'TypeScript - Redux - Testing',
-        description: 'A big friend of mine and I started teaching those knowledges of HTML and CSS for students at secondary school.',
+        description: 'This month was very special, firstly I got my Italian Nationality that opened my doors to travel and work around the world. And then I completed two courses at Udemy, one to introduce me into TypeScript and another of ReactJS that explained me Redux, Routes, Authentications and Unit Tests.',
         date: 'November 2021',
         id: 11
     },
     {
         title: 'First vanilla JS project',
-        description: 'A big friend of mine and I started teaching those knowledges of HTML and CSS for students at secondary school.',
+        description: 'As entering the Top10% of my first JavaScript course I have been benefited with making a Real Project for a beer business at Peru. Was something that make me improve a lot my skills at HTML, CSS and JS.',
         date: 'October 2021',
         id: 10
     },
     {
-        title: 'Node',
-        description: 'A big friend of mine and I started teaching those knowledges of HTML and CSS for students at secondary school.',
+        title: 'Introduced to NodeJS',
+        description: 'This was a special course, I remember when I made the first connection between a Front-End and Backe-End server and uploaded it to Heroku. For this course I am very grateful with Fernando Herrera (Web Development Teacher at Udemy).',
         date: 'September 2021',
         id: 9
     },
     {
-        title: 'React!',
-        description: 'A big friend of mine and I started teaching those knowledges of HTML and CSS for students at secondary school.',
+        title: 'React Time',
+        description: 'This month I finished my first ReactJS course, this gave me the principal things of the library to go on developing projects with the MERN stack and understanding new things as hooks and context.',
         date: 'September 2021',
         id: 8
     },

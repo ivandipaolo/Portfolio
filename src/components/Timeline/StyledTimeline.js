@@ -2,12 +2,12 @@ import { colors } from "../../constants/colors";
 import styled from "styled-components";
 
 export const StyledTimeline = styled.div`
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-family: "Roboto Mono", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     h1 {
         font-size: 50px;
         font-weight: 400;

@@ -2,9 +2,14 @@ import { StyledTimeline } from "./StyledTimeline"
 import { items } from "./statements"
 
 export const Timeline = () => {
+    const today = new Date();
+    let month = today.toLocaleString('default', { month: 'short' })
+    let day = today.getUTCDate();
+    let year = today.getUTCFullYear();
+    const newdate = day + "/" + month + "/" + year;
     return (
         <StyledTimeline>
-            <h1>PRESENT</h1>
+            <h1>{newdate}</h1>
             <div className="timeline">
                 <div id='vertical-line' />
                 <ul>
