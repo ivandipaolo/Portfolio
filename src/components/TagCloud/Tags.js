@@ -15,10 +15,10 @@ function Tags() {
     const container = '.tagcloud';
     const texts = [
         'CSS3', `HTML`, 'JavaScript',
-        'ReactJS', 'Redux', 'Unit<br/>Tests',
-        'SASS', 'Styled<br/>Components',
+        'ReactJS', 'Redux', 'Unit \n Tests',
+        'SASS', 'Styled \n Components',
         'NodeJS', 'MongoDB', 'SQL', 'JSON', 'Firebase',
-        'TypeScript', 'Git & GitHub', 'RESTful<br/>WebServices',
+        'TypeScript', 'Git & GitHub', 'RESTful \n WebServices',
         'Python', 'Java'
     ];
 

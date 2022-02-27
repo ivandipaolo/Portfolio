@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Simple-Light';
+    src: url("../src/assets/fonts/Fredoka-Light.ttf") format("opentype");
+}
+@font-face {
+    font-family: 'Simple-Regular';
+    src: url("../src/assets/fonts/Fredoka-Regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: 'Simple-Medium';
+    src: url("../src/assets/fonts/Fredoka-Medium.ttf") format("opentype");
+}
 
 *{
     margin: 0;

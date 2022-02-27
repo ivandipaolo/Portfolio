@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const StyledTimeline = styled.div`
     margin-top: 1.5rem;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: Simple-Light;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +58,7 @@ export const StyledTimeline = styled.div`
                     height: 10px;
                     top: 63px;
                     right: -16px;
-                    background: #e36607;
+                    background: ${colors.deitals};
                     border-radius: 50%;
                 }
                 .time {
@@ -71,7 +71,7 @@ export const StyledTimeline = styled.div`
                     background: ${colors.backgroundOrange};
                     color: ${colors.textDefault};
                     border-radius: 2px;
-                    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.3);
+                    box-shadow: 0 0 0 3px rgba(32, 147, 156, 0.3);
                     text-align: center;
                 }
             }
@@ -87,7 +87,7 @@ export const StyledTimeline = styled.div`
                     height: 10px;
                     top: 68px;
                     left: -17px;
-                    background: #e36607;
+                    background: ${colors.deitals};
                     border-radius: 50%;
                 }
                 .time {
@@ -100,7 +100,7 @@ export const StyledTimeline = styled.div`
                     background: ${colors.backgroundOrange};
                     color: ${colors.textDefault};
                     border-radius: 2px;
-                    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.3);
+                    box-shadow: 0 0 0 3px rgba(32, 147, 156, 0.3);
                     text-align: center;
                 }
             }

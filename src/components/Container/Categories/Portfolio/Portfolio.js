@@ -31,7 +31,7 @@ export const Portfolio = () => {
     return (
         <StyledPortfolio>
             <div>
-                <h2> Ivan Ari {'\n'} Di Paolo </h2>
+                <h2> Ivan Ari <br/> Di Paolo </h2>
                 <p id='header' />
             </div>
             <img src={perfil} alt='' />

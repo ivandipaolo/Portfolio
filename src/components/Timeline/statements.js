@@ -61,7 +61,7 @@ export const items = [
         id: 2
     },
     {
-        title: 'The Beggining',
+        title: 'The Real Beggining',
         description: 'Joined the robotics workshop at school and started to compete in national tournaments. Combining Lego Mindstorm and Arduino language for my projects.',
         date: 'June 2015',
         id: 1

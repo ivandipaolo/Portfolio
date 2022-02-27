@@ -17,7 +17,7 @@ export const StyledHeader = styled.div`
     border-image-source: linear-gradient(to left, ${colors.background}, ${colors.backgroundOrange} 25%, ${colors.backgroundOrange} 75%, ${colors.background} 100%);
     border-image-slice: 1;
     h2{
-        font-family: 'Roboto Mono', monospace;
+        font-family: Simple-Light;
         font-weight: 500;
         color: ${props => props.pageY > 0 ? '#ffffff' : colors.textDefault};
         transition: all .3s ease-in-out;
@@ -38,7 +38,7 @@ export const StyledHeader = styled.div`
 `
 
 export const StyledSpan = styled.span`
-    font-family: 'Roboto';
+    font-family: Simple-Light;
     color: ${colors.deitals};
     transition: all .2s ease-in-out;
     :hover{

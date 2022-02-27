@@ -1,8 +1,8 @@
 export const colors = {
     textDefault: '#ffffff',
-    textSelected: '#e36607',
-    background: '#0a1a32',
-    backgroundOrange: '#e36607',
+    textSelected: '#5ccba3',
+    background: '#28374d',
+    backgroundOrange: '#20939c',
     noticeText: '#ffffff',
-    deitals: '#ac5312'
+    deitals: '#20939c'
 };

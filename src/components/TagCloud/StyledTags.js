@@ -6,7 +6,7 @@ export const StyledTags = styled.div`
         }
         
         .tagcloud--item {
-            font-family: 'Roboto Mono', monospace;
+            font-family: Simple-Light;
             font-size: 1.2rem;
             text-align: center;
             padding: 2px 4px;

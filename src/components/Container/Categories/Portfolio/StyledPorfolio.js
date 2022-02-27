@@ -13,7 +13,7 @@ div{
     right: 0px;
     padding-top: 2rem;
     h2{
-        font-family: 'Roboto Mono', monospace;
+        font-family: Simple-Regular;
         font-weight: 600;
         font-size: 3rem;
         /* height: auto; */
@@ -23,6 +23,7 @@ div{
         cursor: text;
     }
     p{
+        font-family: Simple-Light;
         color: ${colors.textSelected};
         cursor: text;
         font-size: 1.2rem;
